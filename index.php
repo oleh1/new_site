@@ -137,7 +137,49 @@ color: #FFFFFF;
 
 <div>
     <div>All rights reserved. ©Copyright 2018</div>
-    <div></div>
+    <div>
+
+        <div class="lb1" id="comp-it437nfg" style="width: 325px; height: 32px;text-align: center;">
+            <ul aria-label="Social bar" id="comp-it437nfgitemsContainer" class="lb1itemsContainer">
+                <li class="lb1imageItem" id="comp-it437nfg0image" style="width: 32px; height: 32px; margin-bottom: 0px; margin-right: 13px; display: inline-block;">
+                    <a href="https://www.linkedin.com" target="_blank" data-content="https://www.linkedin.com" data-type="external" id="comp-it437nfg0imagelink" class="lb1imageItemlink">
+                        <div  class="lb1imageItemimage" id="comp-it437nfg0imageimage" style=" width: 32px; height: 32px;">
+                            <div class="lb1imageItemimagepreloader" id="comp-it437nfg0imageimagepreloader"></div>
+                            <img id="comp-it437nfg0imageimageimage" alt="LinkedIn - Black Circle" data-type="image" style="width: 32px; height: 32px; object-fit: cover;" src="in.png">
+                        </div>
+                    </a></li>
+                <li class="lb1imageItem" id="comp-it437nfg1image" style="width: 32px; height: 32px; margin-bottom: 0px; margin-right: 13px; display: inline-block;">
+                    <a href="http://www.twitter.com" target="_blank" data-content="http://www.twitter.com" data-type="external" id="comp-it437nfg1imagelink" class="lb1imageItemlink">
+                        <div  class="lb1imageItemimage" id="comp-it437nfg1imageimage" style=" width: 32px; height: 32px;">
+                            <div class="lb1imageItemimagepreloader" id="comp-it437nfg1imageimagepreloader"></div>
+                            <img id="comp-it437nfg1imageimageimage" alt="Twitter - Black Circle" data-type="image" style="width: 32px; height: 32px; object-fit: cover;" src="tw.png">
+                        </div>
+                    </a></li>
+                <li class="lb1imageItem" id="comp-it437nfg2image" style="width: 32px; height: 32px; margin-bottom: 0px; margin-right: 13px; display: inline-block;">
+                    <a href="https://plus.google.com" target="_blank" data-content="https://plus.google.com" data-type="external" id="comp-it437nfg2imagelink" class="lb1imageItemlink">
+                        <div  class="lb1imageItemimage" id="comp-it437nfg2imageimage" style=" width: 32px; height: 32px;">
+                            <div class="lb1imageItemimagepreloader" id="comp-it437nfg2imageimagepreloader"></div>
+                            <img id="comp-it437nfg2imageimageimage" alt="Google+ - Black Circle" data-type="image" style="width: 32px; height: 32px; object-fit: cover;" src="go.png">
+                        </div>
+                    </a></li>
+                <li class="lb1imageItem" id="comp-it437nfg3image" style="width: 32px; height: 32px; margin-bottom: 0px; margin-right: 13px; display: inline-block;">
+                    <a href="http://www.facebook.com" target="_blank" data-content="http://www.facebook.com" data-type="external" id="comp-it437nfg3imagelink" class="lb1imageItemlink">
+                        <div  class="lb1imageItemimage" id="comp-it437nfg3imageimage" style=" width: 32px; height: 32px;">
+                            <div class="lb1imageItemimagepreloader" id="comp-it437nfg3imageimagepreloader"></div>
+                            <img id="comp-it437nfg3imageimageimage" alt="Facebook - Black Circle" data-type="image" style="width: 32px; height: 32px; object-fit: cover;" src="fa.png">
+                        </div>
+                    </a></li>
+                <li class="lb1imageItem" id="comp-it437nfg4image" style="width: 32px; height: 32px; margin-bottom: 0px; margin-right: 13px; display: inline-block;">
+                    <a href="https://vk.com" target="_blank" data-content="https://vk.com" data-type="external" id="comp-it437nfg4imagelink" class="lb1imageItemlink">
+                        <div  class="lb1imageItemimage" id="comp-it437nfg4imageimage" style=" width: 32px; height: 32px;">
+                            <div class="lb1imageItemimagepreloader" id="comp-it437nfg4imageimagepreloader"></div>
+                            <img id="comp-it437nfg4imageimageimage" alt="Vkontakte - Black Circle" data-type="image" style="width: 32px; height: 32px; object-fit: cover;" src="vk.png">
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
+
+    </div>
 </div>
 
 <style type="text/css">
@@ -329,6 +371,29 @@ color: #FFFFFF;
         outline-offset: 0;
     }
     /*form*/
+
+    /*icon*/
+    .lb1itemsContainer {
+        width: 100%;
+        height: 100%;
+        white-space: nowrap;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    .lb1 a {
+        display: block;
+        height: 100%;
+    }
+    .lb1imageItemlink {
+        cursor: pointer;
+    }
+    a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    /*icon*/
 </style>
 
 </body>
