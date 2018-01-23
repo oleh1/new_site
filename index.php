@@ -7,18 +7,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<body style="
+background: url(fon.jpg) no-repeat 0 -130px;
+-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+">
 
-<div>
-    <div style="margin: 0 0 0 25%;width: 50%;">
-        <div>Rostislav Malimonenko</div>
-        <div>Barrister, attorney, lawyer, advocate of Ukraine</div>
+<div style="
+height: 361px;
+    background: rgba(0, 0, 0, 0.5);
+">
+    <div style="
+    margin: 0 0 0 25%;width: 50%;
+
+">
+        <div style="
+word-wrap: break-word;
+
+"><h1 style="
+line-height: 1.2em;
+    text-align: center;
+    font-size: 44px;
+    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    /*font: normal normal bold 60px/1.4em 'open sans', sans-serif;*/
+    color: #FFFFFF;
+">Rostislav Malimonenko</h1></div>
+        <div style="
+word-wrap: break-word;
+
+"><h5 style="
+text-align: center;
+margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font: normal normal normal 25px/1.4em avenir-lt-w01_35-light1475496, sans-serif;
+    font-family: open sans,sans-serif;
+    color: #94A3BA;
+    letter-spacing: 0.3em;
+">Barrister, attorney, lawyer, advocate of Ukraine</h5></div>
     </div>
 </div>
 
-<div>
-    <div style="margin: 0 0 0 25%;width: 50%;">
-        <div></div>
+<div style="
+background-color: rgba(237, 239, 245, 1);
+height: 455px;
+">
+    <div style="margin: 0 0 0 25%;width: 50%;text-align: center;">
+        <div>
+
+            <div data-exact-height="260" data-content-padding-horizontal="16" data-content-padding-vertical="16" title="" class="style-it437nj7" id="comp-it437nj5" style="left: 50%; position: absolute; top: 230px; width: 264px; height: 260px;margin: 0 0 0 -132px;">
+                <div id="comp-it437nj5link" class="style-it437nj7link" style="width: 248px; height: 244px;">
+                    <div data-style="" class="style-it437nj7img" id="comp-it437nj5img" style="position: relative; width: 248px; height: 244px;">
+                        <div class="style-it437nj7imgpreloader" id="comp-it437nj5imgpreloader"></div>
+                        <img id="comp-it437nj5imgimage" alt="" data-type="image" src="photo.jpg" style="width: 79%; height: 117%; object-fit: cover;margin: -13px 0 0 0;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
         <div>Barrister, attorney, lawyer, advocate of Ukraine</div>
         <div>Barrister Rostislav Malimonenko, the member of Ukrainian National BAR Association will help to resolve any legal issues in Ukraine including representation in criminal cases, recovering a debt, divorce, determination of the child's place of residence through the court in Ukraine, division of spouses' property in Ukraine , representation and protection in Ukraine in all disputable cases on the territory of Ukraine. malimonenko@ukr.net +380667371277 +380993090829</div>
     </div>
@@ -392,8 +442,22 @@ color: #FFFFFF;
         cursor: pointer;
         text-decoration: none;
     }
-
     /*icon*/
+
+    /*photo*/
+    .style-it437nj7link {
+        display: block;
+        border-radius: 50%;
+        border: 8px solid rgba(237, 239, 245, 1);
+        background-color: rgba(237, 239, 245, 1);
+        overflow: hidden;
+    }
+    .style-it437nj7img {
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    /*photo*/
 </style>
 
 </body>
