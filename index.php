@@ -33,23 +33,84 @@
 </div>
 
 <div>
-    <div style="margin: 0 0 0 25%;width: 50%;">
-        <div style="width: 50%;display: inline-block;">
-            <div>CONTACTS</div>
-            <div></div>
+    <div style="width: 100%;height: 537px">
+        <div style="height: 100%;width: 50%;display: inline-block;background-color: rgb(46, 73, 117);float: left;">
+            <div style="
+                word-wrap: break-word;
+                    margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font: normal normal bold 38px/1.4em 'open sans', sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+            ">CONTACTS</div>
+            <div style="width: 52px; height: 7px;border-bottom: 7px solid rgba(223, 49, 67, 1);height: 0 !important;min-height: 0 !important;margin: 0 0 15px 0;"></div>
             <div>
                 <div>
-                    <div>Telephone</div>
-                    <div>+380667371277, +380993090829</div>
+                    <div style="
+                    display: inline-block;
+                        line-height: 2em;
+                        margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font: normal normal normal 17px/1.4em 'open sans', sans-serif;
+    font-family: open sans,sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+                    ">Telephone</div>
+                    <div style="
+                    display: inline-block;
+                        line-height: 2em;
+                            margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font: normal normal normal 17px/1.4em 'open sans', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+"><a style="
+color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+" href="tel:+380667371277" target="_blank" value="+380667371277">+380667371277</a>, <a style="
+color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+" href="tel:+380993090829" target="_blank" value="+380993090829">+380993090829</a></div>
                 </div>
                 <div>
-                    <div>Email</div>
-                    <div>malimonenko@ukr.net</div>
+                    <div style="
+                    display: inline-block;
+                    display: inline-block;
+                        line-height: 2em;
+                        margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font: normal normal normal 17px/1.4em 'open sans', sans-serif;
+    font-family: open sans,sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+">Email</div>
+                    <div style="
+                    display: inline-block;
+                    line-height: 2em;
+                            margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font: normal normal normal 17px/1.4em 'open sans', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+"><a style="
+color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+" class="auto-generated-link" data-auto-recognition="true" data-content="info@mysite.ru" href="mailto:info@mysite.ru" data-type="mail">malimonenko@ukr.net</a></div>
                 </div>
             </div>
         </div>
 
-        <div style="width: 49%;display: inline-block;background-color: rgb(187, 200, 221);">
+        <div style="height: 100%;width: 50%;display: inline-block;background-color: rgb(187, 200, 221);float: left;">
             <div style="letter-spacing:0.1em;color: #070A0E;word-wrap: break-word;font: normal normal bold 38px/1.4em 'open sans', sans-serif;color: #070A0E;">WRITE ME</div>
             <div style="width: 52px; height: 7px;border-bottom: 7px solid rgba(223, 49, 67, 1);height: 0 !important;min-height: 0 !important;margin: 0 0 15px 0;"></div>
             <div>
@@ -75,7 +136,7 @@
 </div>
 
 <div>
-    <div></div>
+    <div>All rights reserved. ©Copyright 2018</div>
     <div></div>
 </div>
 
@@ -257,6 +318,15 @@
     input, select, textarea {
         font-family: Helvetica, Arial, sans-serif;
         box-sizing: border-box;
+    }
+
+    #comp-it43dhlqform-wrapper input:active, #comp-it43dhlqform-wrapper input:hover, #comp-it43dhlqform-wrapper input:focus {
+        outline: 0;
+        outline-offset: 0;
+    }
+    #comp-it43dhlqform-wrapper textarea:active, #comp-it43dhlqform-wrapper textarea:hover, #comp-it43dhlqform-wrapper textarea:focus {
+        outline: 0;
+        outline-offset: 0;
     }
     /*form*/
 </style>
