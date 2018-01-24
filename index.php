@@ -36,6 +36,7 @@ line-height: 1.2em;
     letter-spacing: normal;
     /*font: normal normal bold 60px/1.4em 'open sans', sans-serif;*/
     color: #FFFFFF;
+    padding: 60px 0 0 0;
 ">Rostislav Malimonenko</h1></div>
         <div style="
 word-wrap: break-word;
@@ -54,8 +55,9 @@ margin: 0;
 </div>
 
 <div style="
+padding: 128px 0 18px 0;
 background-color: rgba(237, 239, 245, 1);
-height: 455px;
+height: auto;
 ">
     <div style="margin: 0 0 0 10%;width: 80%;text-align: center;">
         <div>
