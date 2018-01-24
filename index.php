@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body style="
-background: url(fon.jpg) no-repeat 0 -20px;
+background: url(fon.jpg) no-repeat 0 -30px;
 -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
@@ -16,12 +16,12 @@ background: url(fon.jpg) no-repeat 0 -20px;
     background-attachment: fixed;
 ">
 
-<div style="
-height: 361px;
-    background: rgba(0, 0, 0, 0.5);
+<div id="we" style="
+height: 267px;
+    background: rgba(0, 0, 0, 0.3);
 ">
     <div style="
-    margin: 0 0 0 10%;width: 80%;
+    margin: 0 0 0 5%;width: 90%;
 
 ">
         <div style="
@@ -36,7 +36,7 @@ line-height: 1.2em;
     letter-spacing: normal;
     /*font: normal normal bold 60px/1.4em 'open sans', sans-serif;*/
     color: #FFFFFF;
-    padding: 60px 0 0 0;
+    padding: 30px 0 0 0;
 ">Rostislav Malimonenko</h1></div>
         <div style="
 word-wrap: break-word;
@@ -59,10 +59,10 @@ padding: 128px 0 18px 0;
 background-color: rgba(237, 239, 245, 1);
 height: auto;
 ">
-    <div style="margin: 0 0 0 10%;width: 80%;text-align: center;">
+    <div style="margin: 0 0 0 5%;width: 90%;text-align: center;">
         <div>
 
-            <div data-exact-height="260" data-content-padding-horizontal="16" data-content-padding-vertical="16" title="" class="style-it437nj7" id="comp-it437nj5" style="left: 50%; position: absolute; top: 230px; width: 264px; height: 260px;margin: 0 0 0 -132px;">
+            <div data-exact-height="260" data-content-padding-horizontal="16" data-content-padding-vertical="16" title="" class="style-it437nj7" id="comp-it437nj5" style="left: 50%; position: absolute; top: 137px; width: 264px; height: 260px;margin: 0 0 0 -132px;">
                 <div id="comp-it437nj5link" class="style-it437nj7link" style="width: 248px; height: 244px;">
                     <div data-style="" class="style-it437nj7img" id="comp-it437nj5img" style="position: relative; width: 248px; height: 244px;">
                         <div class="style-it437nj7imgpreloader" id="comp-it437nj5imgpreloader"></div>
@@ -85,11 +85,14 @@ font-size: 28px;
     </div>
 </div>
 
-<div>
-    <div style="margin: 0 0 0 10%;width: 80%;">
+<div style="
+background: rgba(0, 0, 0, 0.5);
+padding: 10px 0;
+">
+    <div style="margin: 0 0 0 5%;width: 90%;">
         <div class="q1">I live and work as a barrister in Ukraine. I have a lot of experience in all criminal cases, labour cases, civil cases, matrimonial cases, corporate cases, administrative proceedings, as well as other cases solution of which is required by the client.</div>
-        <div class="q1">I have a lot of practical experience in appealing against illegal actions of police officers, prosecutors, and other officials.</div>
-        <div class="q1">I always glad to help in solving your problems in Ukraine and protecting your rights and interests.</div>
+        <div class="q2">I have a lot of practical experience in appealing against illegal actions of police officers, prosecutors, and other officials.</div>
+        <div class="q3">I always glad to help in solving your problems in Ukraine and protecting your rights and interests.</div>
     </div>
 </div>
 
@@ -501,6 +504,54 @@ margin: 0;
         color: white;
         text-align: center;
         margin: 0 0 20px 0;
+    }
+    .q2{
+        font-size: 21px;
+        color: white;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .q3{
+        font-size: 21px;
+        color: white;
+        text-align: center;
+    }
+
+    @media screen and (max-width:528px) {
+        body{
+            background: url(fon.jpg) no-repeat center top fixed !important;
+            -webkit-background-size: cover !important;
+            -moz-background-size: cover !important;
+            -o-background-size: cover !important;
+            background-size: cover !important;
+        }
+    }
+    @media screen and (max-width:973px) {
+        #we > div > div:nth-child(1) > h1{
+            font-size: 35px !important;
+        }
+        #we > div > div:nth-child(2) > h5{
+            font: normal normal normal 24px/1.4em avenir-lt-w01_35-light1475496, sans-serif !important;
+        }
+    }
+    @media screen and (max-width:532px) {
+        #we > div > div:nth-child(1) > h1{
+            font-size: 27px !important;
+            padding: 12px 0 0 0 !important;
+        }
+        #we > div > div:nth-child(2) > h5{
+            font: normal normal normal 22px/1.4em avenir-lt-w01_35-light1475496, sans-serif !important;
+        }
+    }
+    @media screen and (max-width:376px) {
+        #we > div > div:nth-child(1) > h1{
+            font-size: 25px !important;
+            padding: 12px 0 0 0 !important;
+        }
+        #we > div > div:nth-child(2) > h5{
+            font: normal normal normal 22px/1.4em avenir-lt-w01_35-light1475496, sans-serif !important;
+            letter-spacing: 0.2em !important;
+        }
     }
 </style>
 
