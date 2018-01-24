@@ -96,9 +96,19 @@ padding: 10px 0;
     </div>
 </div>
 
-<div>
-    <div style="width: 100%;height: 537px">
-        <div style="height: 100%;width: 50%;display: inline-block;background-color: rgb(46, 73, 117);float: left;">
+<div id="cooo">
+    <div style="width: 100%;height: 368px">
+        <div style="height: 100%;width: 50%;display: inline-block;background-color: rgb(46, 73, 117);float: left;
+text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -o-center;
+    text-align: -ms-center;
+">
+            <div style="
+width: max-content;
+    text-align: left;
+    margin: 12px 0 0 0;
+">
             <div style="
                 word-wrap: break-word;
                     margin: 0;
@@ -172,9 +182,21 @@ color: #FFFFFF;
 " class="auto-generated-link" data-auto-recognition="true" data-content="info@mysite.ru" href="mailto:info@mysite.ru" data-type="mail">malimonenko@ukr.net</a></div>
                 </div>
             </div>
-        </div>
+            </div></div>
 
-        <div style="height: 100%;width: 50%;display: inline-block;background-color: rgb(187, 200, 221);float: left;">
+        <div style="height: 100%;width: 50%;display: inline-block;background-color: rgb(187, 200, 221);float: left;
+text-align: -webkit-center;
+    text-align: -moz-center;
+    text-align: -o-center;
+    text-align: -ms-center;
+">
+
+            <div style="
+    width: max-content;
+    text-align: left;
+    margin: 12px 0 0 0;
+">
+
             <div style="letter-spacing:0.1em;color: #070A0E;word-wrap: break-word;font: normal normal bold 38px/1.4em 'open sans', sans-serif;color: #070A0E;">WRITE ME</div>
             <div style="width: 52px; height: 7px;border-bottom: 7px solid rgba(223, 49, 67, 1);height: 0 !important;min-height: 0 !important;margin: 0 0 15px 0;"></div>
             <div>
@@ -189,13 +211,16 @@ color: #FFFFFF;
                             <textarea placeholder="Message" name="Сообщение" class="cf1fieldMessage" data-aid="messageField" id="comp-it43dhlqfieldMessage"></textarea>
                             <div id="comp-it43dhlqsubmit1" style="font-size:  25px;font-weight:  bold;" class="cf1submit1">Send
                             </div>
-                            <div aria-live="polite" class="cf1_success cf1notifications" id="comp-it43dhlqnotifications"></div>
                         </div>
                     </form>
                 </div>
 
             </div>
+
+            <div>
+
         </div>
+
     </div>
 </div>
 
@@ -553,6 +578,31 @@ margin: 0;
             letter-spacing: 0.2em !important;
         }
     }
+
+    @media screen and (max-width:1016px) {
+        #cooo > div{
+            height: auto !important;
+        }
+        #cooo > div > div:nth-child(1){
+            display: block !important;
+            float: none !important;
+            width: 100% !important;
+            padding: 0 0 10px 0 !important;
+        }
+        #cooo > div > div:nth-child(1) > div{
+            margin: 0 !important;
+        }
+        #cooo > div > div:nth-child(2){
+            display: block !important;
+            float: none !important;
+            width: 100% !important;
+            padding: 0 0 10px 0 !important;
+        }
+        #cooo > div > div:nth-child(2) > div{
+            margin: 0 !important;
+        }
+    }
+
 </style>
 
 </body>
