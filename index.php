@@ -8,11 +8,12 @@
     <title>Document</title>
 </head>
 <body style="
-background: url(fon.jpg) no-repeat 0 -130px;
+background: url(fon.jpg) no-repeat 0 -20px;
 -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
+    background-attachment: fixed;
 ">
 
 <div style="
@@ -20,7 +21,7 @@ height: 361px;
     background: rgba(0, 0, 0, 0.5);
 ">
     <div style="
-    margin: 0 0 0 25%;width: 50%;
+    margin: 0 0 0 10%;width: 80%;
 
 ">
         <div style="
@@ -56,7 +57,7 @@ margin: 0;
 background-color: rgba(237, 239, 245, 1);
 height: 455px;
 ">
-    <div style="margin: 0 0 0 25%;width: 50%;text-align: center;">
+    <div style="margin: 0 0 0 10%;width: 80%;text-align: center;">
         <div>
 
             <div data-exact-height="260" data-content-padding-horizontal="16" data-content-padding-vertical="16" title="" class="style-it437nj7" id="comp-it437nj5" style="left: 50%; position: absolute; top: 230px; width: 264px; height: 260px;margin: 0 0 0 -132px;">
@@ -69,16 +70,24 @@ height: 455px;
             </div>
 
         </div>
-        <div>Barrister, attorney, lawyer, advocate of Ukraine</div>
-        <div>Barrister Rostislav Malimonenko, the member of Ukrainian National BAR Association will help to resolve any legal issues in Ukraine including representation in criminal cases, recovering a debt, divorce, determination of the child's place of residence through the court in Ukraine, division of spouses' property in Ukraine , representation and protection in Ukraine in all disputable cases on the territory of Ukraine. malimonenko@ukr.net +380667371277 +380993090829</div>
+        <div><h1 style="
+font-size: 28px;
+    text-align: center;
+    font-size: 35px;
+    margin: 0 0 10px 0;
+">Barrister, attorney, lawyer, advocate of Ukraine</h1></div>
+        <div style="
+        font-size: 28px;
+    text-align: center;
+">Barrister Rostislav Malimonenko, the member of Ukrainian National BAR Association will help to resolve any legal issues in Ukraine including representation in criminal cases, recovering a debt, divorce, determination of the child's place of residence through the court in Ukraine, division of spouses' property in Ukraine , representation and protection in Ukraine in all disputable cases on the territory of Ukraine. <a href="mailto:malimonenko@ukr.net" target="_blank" rel="noreferrer noopener">malimonenko@ukr.net</a> <a href="tel:+380667371277" target="_blank" value="+380667371277">+380667371277</a> <a href="tel:+380993090829" value="+380993090829" target="_blank">+380993090829</a></div>
     </div>
 </div>
 
 <div>
-    <div style="margin: 0 0 0 25%;width: 50%;">
-        <div>I live and work as a barrister in Ukraine. I have a lot of experience in all criminal cases, labour cases, civil cases, matrimonial cases, corporate cases, administrative proceedings, as well as other cases solution of which is required by the client.</div>
-        <div>I have a lot of practical experience in appealing against illegal actions of police officers, prosecutors, and other officials.</div>
-        <div>I always glad to help in solving your problems in Ukraine and protecting your rights and interests.</div>
+    <div style="margin: 0 0 0 10%;width: 80%;">
+        <div class="q1">I live and work as a barrister in Ukraine. I have a lot of experience in all criminal cases, labour cases, civil cases, matrimonial cases, corporate cases, administrative proceedings, as well as other cases solution of which is required by the client.</div>
+        <div class="q1">I have a lot of practical experience in appealing against illegal actions of police officers, prosecutors, and other officials.</div>
+        <div class="q1">I always glad to help in solving your problems in Ukraine and protecting your rights and interests.</div>
     </div>
 </div>
 
@@ -185,9 +194,25 @@ color: #FFFFFF;
     </div>
 </div>
 
-<div>
-    <div>All rights reserved. ©Copyright 2018</div>
-    <div>
+<div style="
+background-color: rgba(237, 239, 245, 1);
+">
+    <div style="
+display: inline-block;
+"><p style="
+    line-height: 1.4em;
+        margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+    font: normal normal normal 13px/1.4em 'open sans', sans-serif;
+    color: #070A0E;
+    font-family: open sans,sans-serif;
+    font-size: 20px;
+">All rights reserved. ©Copyright 2018</p></div>
+    <div style="
+display: inline-block;
+text-align: center;
+">
 
         <div class="lb1" id="comp-it437nfg" style="width: 325px; height: 32px;text-align: center;">
             <ul aria-label="Social bar" id="comp-it437nfgitemsContainer" class="lb1itemsContainer">
@@ -228,6 +253,16 @@ color: #FFFFFF;
                     </a></li>
             </ul>
         </div>
+
+        <div><p style="
+word-wrap: break-word;
+line-height: 1.4em;
+margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+        font: normal normal normal 13px/1.4em 'open sans', sans-serif;
+    color: #070A0E;
+">Subscribe to me in social networks</p></div>
 
     </div>
 </div>
@@ -458,6 +493,13 @@ color: #FFFFFF;
     }
 
     /*photo*/
+
+    .q1{
+        font-size: 21px;
+        color: white;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
 </style>
 
 </body>
