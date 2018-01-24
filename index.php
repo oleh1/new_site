@@ -664,5 +664,18 @@ margin: 0;
 
         <div class="asd" style="font-size:  34px;position: fixed;top: 50%;left: 50%;color:  green;margin: 0 0 0 -234px;display: none;">Ваше сообщение отправлено</div>
 
+
+        <?php if($_SERVER['HTTP_HOST'] == 'pro-advocate.pp.ua'){ ?>
+        <script type="text/javascript" data-cfasync="false" src="//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js" data-shr-siteid="cc504252ca7d24e616b9bc4ae0319525" async="async"></script>
+        <?php } ?>
+
+        <?php if($_SERVER['HTTP_HOST'] == 'advocate-of-ukraine.pp.ua'){ ?>
+        <script type="text/javascript" data-cfasync="false" src="//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js" data-shr-siteid="e2b9e954d864d26643a884f6ca0eabfe" async="async"></script>
+        <?php } ?>
+
+        <?php if($_SERVER['HTTP_HOST'] == 'attorney-at-law-of-ukraine.pp.ua'){ ?>
+        <script type="text/javascript" data-cfasync="false" src="//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js" data-shr-siteid="a64d4996ad0ea16b2452f1f050524d5b" async="async"></script>
+        <?php } ?>
+
 </body>
 </html>
