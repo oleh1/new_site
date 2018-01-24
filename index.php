@@ -132,7 +132,7 @@ width: max-content;
     font-family: open sans,sans-serif;
     font-weight: bold;
     color: #FFFFFF;
-                    ">Telephone</div>
+                    ">Telephone: </div>
                     <div style="
                     display: inline-block;
                         line-height: 2em;
@@ -165,7 +165,7 @@ color: #FFFFFF;
     font-family: open sans,sans-serif;
     font-weight: bold;
     color: #FFFFFF;
-">Email</div>
+">Email: </div>
                     <div style="
                     display: inline-block;
                     line-height: 2em;
