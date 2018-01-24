@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="jquery-3.3.1.min.js"></script>
 </head>
 <body style="
 background: url(fon.jpg) no-repeat 0 -30px;
@@ -209,7 +210,7 @@ text-align: -webkit-center;
                             <div><input type="text" id="field3" aria-invalid="false" name="Тема" value="" class="" placeholder="Theme" data-aid="subjectField"><input type="tel" id="field4" aria-invalid="false" name="Телефон" value="" class="cf1_hidden cf1_hiddenField" placeholder="Телефон" data-aid="phoneField"><input type="text" id="field5" aria-invalid="false" name="Адрес" value="" class="cf1_hidden cf1_hiddenField" placeholder="Адрес" data-aid="addressField">
                             </div>
                             <textarea placeholder="Message" name="Сообщение" class="cf1fieldMessage" data-aid="messageField" id="comp-it43dhlqfieldMessage"></textarea>
-                            <div id="comp-it43dhlqsubmit1" style="font-size:  25px;font-weight:  bold;" class="cf1submit1">Send
+                            <div id="comp-it43dhlqsubmit1" style="cursor: pointer;font-size:  25px;font-weight:  bold;" class="cf1submit1">Send
                             </div>
                         </div>
                     </form>
@@ -228,7 +229,9 @@ text-align: -webkit-center;
 background-color: rgba(237, 239, 245, 1);
 ">
     <div style="
+    text-align: center;
 display: inline-block;
+width: 50%;
 "><p style="
     line-height: 1.4em;
         margin: 0;
@@ -238,13 +241,21 @@ display: inline-block;
     color: #070A0E;
     font-family: open sans,sans-serif;
     font-size: 20px;
-">All rights reserved. ©Copyright 2018</p></div>
+    position: relative;
+    bottom: 12px;
+" class="asdd">All rights reserved. ©Copyright 2018</p></div>
     <div style="
 display: inline-block;
 text-align: center;
+width: 49%;
 ">
 
-        <div class="lb1" id="comp-it437nfg" style="width: 325px; height: 32px;text-align: center;">
+        <div class="bnm" style="
+position: relative;
+top: 3px;
+">
+
+        <div class="lb1" id="comp-it437nfg" style=" height: 32px;text-align: center;">
             <ul aria-label="Social bar" id="comp-it437nfgitemsContainer" class="lb1itemsContainer">
                 <li class="lb1imageItem" id="comp-it437nfg0image" style="width: 32px; height: 32px; margin-bottom: 0px; margin-right: 13px; display: inline-block;">
                     <a href="https://www.linkedin.com" target="_blank" data-content="https://www.linkedin.com" data-type="external" id="comp-it437nfg0imagelink" class="lb1imageItemlink">
@@ -293,6 +304,8 @@ margin: 0;
         font: normal normal normal 13px/1.4em 'open sans', sans-serif;
     color: #070A0E;
 ">Subscribe to me in social networks</p></div>
+
+        </div>
 
     </div>
 </div>
@@ -603,7 +616,53 @@ margin: 0;
         }
     }
 
+    @media screen and (max-width:643px) {
+        .asdd{
+            position: static !important;
+        }
+        .bnm{
+            position: static !important;
+        }
+    }
+
+
 </style>
+
+
+        <script>
+            jQuery(document).ready(function ($) {
+
+                $('body').on('click', '#comp-it43dhlqsubmit1', function () {
+
+                    $.ajax({
+                        type: 'POST',
+                        url: 'asd.php',
+                        data: {
+                            'n': $('#field1').val(),
+                            'ma': $('#field2').val(),
+                            't': $('#field3').val(),
+                            'm': $('#comp-it43dhlqfieldMessage').val()
+                        },
+                        success: function(data){
+                            alert(data);
+                            $('#field1').val('');
+                            $('#field2').val('');
+                            $('#field3').val('');
+                            $('#comp-it43dhlqfieldMessage').val('');
+
+                            $('.asd').fadeIn("slow");
+                            setTimeout(function(){
+                                $('.asd').fadeOut("slow");
+                            }, 3000);
+                        }
+                    });
+
+                });
+
+            });
+        </script>
+
+        <div class="asd" style="font-size:  34px;position: fixed;top: 50%;left: 50%;color:  green;margin: 0 0 0 -234px;display: none;">Ваше сообщение отправлено</div>
 
 </body>
 </html>
