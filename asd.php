@@ -5,7 +5,7 @@ $ma = $_POST['ma'];
 $t = $_POST['t'];
 $m = $_POST['m'];
 
-$to      = 'kopytsia-oleh@yandex.ru';
+$to      = 'malimonenko@ukr.net';
 if(!$n){
     $n = $_SERVER['HTTP_HOST'];
 }

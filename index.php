@@ -646,7 +646,7 @@ margin: 0;
                             'm': $('#comp-it43dhlqfieldMessage').val()
                         },
                         success: function(data){
-                            alert(data);
+                            
                             $('#field1').val('');
                             $('#field2').val('');
                             $('#field3').val('');
