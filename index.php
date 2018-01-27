@@ -1,11 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Barrister, attorney, lawyer, advocate of Ukraine</title>
+    <meta name="description" content="Barrister Rostislav Malimonenko, the member of Ukrainian National BAR Association will help to resolve any legal issues in Ukraine including representation in criminal cases, recovering a debt, divorce, determination of the child's place of residence through the court in Ukraine, division of spouses' property in Ukraine , representation and protection in Ukraine in all disputable cases on the territory of Ukraine"/>
+    <meta name="keywords" content="barrister attorney lawyer advocate Ukraine Rostislav Malimonenko help disputable territory divorce debt recovering criminal" />
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="icon.ico" type="image/x-icon">
     <script src="jquery-3.3.1.min.js"></script>
@@ -69,7 +71,7 @@ height: auto;
                 <div id="comp-it437nj5link" class="style-it437nj7link" style="width: 248px; height: 244px;">
                     <div data-style="" class="style-it437nj7img" id="comp-it437nj5img" style="position: relative; width: 248px; height: 244px;">
                         <div class="style-it437nj7imgpreloader" id="comp-it437nj5imgpreloader"></div>
-                        <img id="comp-it437nj5imgimage" alt="" data-type="image" src="photo.jpg" style="width: 79%; height: 117%; object-fit: cover;margin: -13px 0 0 0;">
+                        <img id="comp-it437nj5imgimage" alt="barrister" data-type="image" src="photo.jpg" style="width: 79%; height: 117%; object-fit: cover;margin: -13px 0 0 0;">
                     </div>
                 </div>
             </div>
@@ -664,7 +666,7 @@ margin: 0;
             });
         </script>
 
-        <div class="asd" style="font-size:  34px;position: fixed;top: 50%;left: 50%;color:  green;margin: 0 0 0 -234px;display: none;">Ваше сообщение отправлено</div>
+        <div class="asd" style="font-size:  34px;position: fixed;top: 50%;left: 50%;color:  green;margin: 0 0 0 -234px;display: none;">Your message has been sent</div>
 
 
         <?php if($_SERVER['HTTP_HOST'] == 'pro-advocate.pp.ua'){ ?>
