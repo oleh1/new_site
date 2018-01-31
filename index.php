@@ -12,7 +12,7 @@
 
         gtag('config', 'UA-113384561-1');
     </script>
-    <?php ?>
+    <?php } ?>
 
     <meta charset="UTF-8">
     <meta name="viewport"
