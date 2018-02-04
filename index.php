@@ -140,7 +140,7 @@ height: auto;
                 <div id="comp-it437nj5link" class="style-it437nj7link" style="width: 248px; height: 244px;">
                     <div data-style="" class="style-it437nj7img" id="comp-it437nj5img" style="position: relative; width: 248px; height: 244px;">
                         <div class="style-it437nj7imgpreloader" id="comp-it437nj5imgpreloader"></div>
-                        <img id="comp-it437nj5imgimage" alt="barrister" data-type="image" src="photo.jpg" style="width: 79%; height: 117%; object-fit: cover;margin: -13px 0 0 0;">
+                        <img id="comp-it437nj5imgimage" alt="barrister" data-type="image" src="photo.jpg" style="width: 79%; height: 117%; object-fit: cover;margin: -13px 15px 0 0;">
                     </div>
                 </div>
             </div>
