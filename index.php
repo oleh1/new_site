@@ -696,6 +696,9 @@ margin: 0;
         }
     }
 
+    #shr-admin-badge{
+        display: none;
+    }
 
 </style>
 
