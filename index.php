@@ -78,6 +78,8 @@
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="icon.ico" type="image/x-icon">
     <script src="jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body style="
 background: url(fon.jpg) no-repeat 0 -30px;
@@ -750,6 +752,11 @@ margin: 0;
         <?php if($_SERVER['HTTP_HOST'] == 'attorney-at-law-of-ukraine.pp.ua'){ ?>
         <script type="text/javascript" data-cfasync="false" src="//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js" data-shr-siteid="a64d4996ad0ea16b2452f1f050524d5b" async="async"></script>
         <?php } ?>
+
+        <div id="root"></div>
+        <script src='react.min.js'></script>
+        <script src='react-dom.min.js'></script>
+        <script src="js/index.js"></script>
 
 </body>
 </html>
