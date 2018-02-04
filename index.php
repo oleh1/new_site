@@ -46,7 +46,7 @@
         </script>
     <?php } ?>
 
-    <?php if($_SERVER['HTTP_HOST'] == ''){ ?>
+    <?php if($_SERVER['HTTP_HOST'] == 'attorney-at-law-of-ukraine.pp.ua'){ ?>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113384561-3"></script>
         <script>
