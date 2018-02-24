@@ -702,6 +702,14 @@ margin: 0;
         display: none;
     }
 
+    #root header > div{
+        font-family: "Droid Sans Mono", monospace;
+        font-weight: lighter;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: white;
+        font-size: 2em;
+    }
 </style>
 
 

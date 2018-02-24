@@ -238,7 +238,7 @@ var Header = function (_React$Component5) {
 			'header',
 			null,
 			React.createElement(
-				'h1',
+				'div',
 				null,
 				'The Kiev time'
 			)
