@@ -698,6 +698,12 @@ margin: 0;
         }
     }
 
+    @media screen and (max-width:476px) {
+        html, body{
+            overflow-x: hidden;
+        }
+    }
+
     #shr-admin-badge{
         display: none;
     }
