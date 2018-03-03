@@ -748,6 +748,11 @@ margin: 0;
         }
 
     }
+    @media screen and (max-width:510px) {
+        #root{
+            top: 130px;
+        }
+    }
 </style>
 
 
